@@ -25,6 +25,16 @@
     else
       element is not present.
       
+  S.upper_bound(x)  // return iterator to the element which in next greater to x.
+                       If the key passed in the parameter exceeds the maximum key in the container, 
+		       then the iterator returned points to the last element in the set container.
+		       
+  S.lower_bound(x)  //  return iterator to the element which in equal to the passed element , if passed 
+  			element is not present in the set it will return iterator to the next element which is just greate 
+			than the passed element.
+			if the passed element is greater than the max key in set then return iterator points to the last
+			element in the set container.
+      
   
   
   
